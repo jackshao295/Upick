@@ -1,6 +1,11 @@
 * {
     /* outline: 1px solid #000; */
 }
+
+body {
+    overflow-x: hidden;
+}
+
 /* 按鈕按下後的邊框 */
 button:focus {
     outline: none;
@@ -105,8 +110,8 @@ button:focus {
         display: none;
     }
     .carStepRow_ZY {
-        margin: 0 auto; 
-        padding-top: 0px;
+        width: 100%;
+        margin: 10px auto;
     }
     .shpFooterSpace-CL {
         display: none;
