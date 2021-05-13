@@ -1104,7 +1104,7 @@
         //上滑至商場特效
         $('.sitBtnGo-CL').click(function() {
             var result = $(this).attr('href');
-            targetTop = $(result).position().top - 200;
+            targetTop = $(result).position().top - 1150;
             $('html,body,.aniContainerOut-CL').animate({
                 scrollTop: targetTop
             }, 500);
@@ -1117,7 +1117,7 @@
         })
 
 
-        //取得首頁滑鼠動畫效果
+        //首頁滑鼠動畫效果
         var maskWidth = $('.aniWepickOut-CL').width();
         $(document).mousemove(function() {
             xPosi = event.clientX;
