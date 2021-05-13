@@ -23,7 +23,7 @@
                </div>
                <div class="col-lg-10">
                    <div class="row">
-                       <div class="col-lg">
+                       <div class="col-lg col-12">
                            <ul>光華數位店
                                <li>電話：02-8288-8968</li>
                                <li>地址：100台北市中正區八德路一段1號
@@ -31,7 +31,7 @@
                                <li>營業時間：10:00~21:00</li>
                            </ul>
                        </div>
-                       <div class="col-lg">
+                       <div class="col-lg col-12">
                            <ul>光華數位2店
                                <li>電話：02-8288-8966
                                </li>
@@ -40,7 +40,7 @@
                                <li>營業時間：10:00~21:00</li>
                            </ul>
                        </div>
-                       <div class="col-lg">
+                       <div class="col-lg col-12">
                            <ul>台中nova店
                                <li>電話：04-8295-0668
                                </li>
@@ -49,7 +49,7 @@
                                <li>營業時間：10:00~21:00</li>
                            </ul>
                        </div>
-                       <div class="col-lg">
+                       <div class="col-lg col-12">
                            <ul>台南北門店
                                <li>電話：06-8968-1324
                                </li>
@@ -58,7 +58,7 @@
                                <li>營業時間：10:00~21:00</li>
                            </ul>
                        </div>
-                       <div class="col-lg">
+                       <div class="col-lg col-12">
                            <ul>高雄建國店
                                <li>電話：07-8394-0842
                                </li>

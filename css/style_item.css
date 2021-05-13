@@ -22,7 +22,6 @@
             overflow: hidden;
         }
 
-
         /*商場*/
         /*移除BS原定的margin-left-15*/
         .shpTop-CL .row {
@@ -44,8 +43,8 @@
         .shpTopSpace-CL {
             height: 200px;
             width: 100%;
-            
         }
+
         /*商場內容區*/
         .shpContainer-CL {
             width: 1200px;   
@@ -239,10 +238,9 @@
         /*設定表格外框*/
         .itemFilter-CL {
             width: 100%;
-            height: 400px;
             border: 1px solid #374052;
             margin-top: 100px;
-            border-radius: 8px;
+            border-radius: 4px;
         }
 
         .itemFilter-CL .table {
@@ -278,11 +276,17 @@
         /*設定篩選項目table裡第一欄顏色,寬度*/
         .itemFilter-CL .table th {
             background: #EDF0F3;
-            width: 180px;
+            width: 250px;
         }
         /*設定篩選項目table裡篩選label寬度*/
         .itemFilter-CL .table td {
             padding-left: 40px;
+            display: flex;
+        }
+        /*設定篩選項目table裡篩選label間距*/
+        .itemFilter-CL .table td div {
+            margin-left: 10px;
+            margin-right: 60px;
         }
 
         /*設定篩選區下方品牌圖*/
@@ -291,6 +295,10 @@
             justify-content:space-evenly;
             height: 155px;
             padding-top: 10px;
+        }
+
+        .itemFilterBrandImg-CL div {
+            color: gray;
         }
 
         .itemFilterBrand-CL {
@@ -310,10 +318,14 @@
             height: 30px;
             text-align: center;
             background-color: #374052;
-            border-radius: 0 0 8px 8px;
+            border-radius: 0 0 4px 4px;
             color: #ffffff;
             line-height: 30px;
             cursor: pointer;
+        }
+
+        .itemCollapse-CL p {
+            color: #ffffff;
         }
 
 
@@ -355,28 +367,45 @@
             margin-left: 8px;
         }
 
-
         /*零件區*/
         .shpItem-CL {
             width: 100%;
-
             border: 1px solid #616161;
             margin-top: 30px;
             border-radius: 8px;
         }
 
-        .shpItem-CL .col {
-            margin: 30px;
+        .shpItem-CL .row {
+            margin: 10px auto 10px auto;
+        }
+
+        .shpItem-CL .col-xl {
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .shpItem-CL img {
+            margin: 0 auto;
+            display: block;
         }
 
         .shpItem-CL p {
             width: 150px;
-            margin: 0 auto;
-        
+            margin: 8px auto 0 auto;
         }
 
+        .shpItem-CL .shpHotCartInfo-CL {
+            margin: 8px auto 0 auto;
+            text-align: center;
+        }
 
-        
+        /*頁碼*/
+        .itemPage-CL {
+            margin-top: 50px;
+            margin-left: 50%;
+            transform: translateX(-40%);
+        }
+
 
         /*此div撐開footer上方的留白空間*/
         .shpFooterSpace-CL {
@@ -410,35 +439,25 @@
             position: fixed;
             z-index: 999;
             left: calc(100vw - 300px);
-            top: 400px;
-            box-sizing: border-box;
-            border-top: 1px solid #374052;
-            border-left: 1px solid #374052;
-            border-right: 1px solid #374052;
-            background-color: #ffffff;
+            top: 80vh;
             transform: translateY(150vh);
             transition: 1s;
         }
 
-        .siteBtnInner-CL, .siteBtnInnerTop-CL {
+        .siteBtnInnerTop-CL {
             width: 60px;
-            height: 50px;
+            height: 60px;
             text-align: center;
             box-sizing: border-box;
-            border-bottom: 1px solid #374052;
+            background-color: #374052;
+            border-radius: 30px 30px 0 30px;
             cursor: pointer;
-        }
-
-        .siteBtnInnerTop-CL {
-            background-color: #374052;  
-        }
-
-        .siteBtnInnerTop-CL p {
-            color: #ffffff;
+            border: 1px solid #ffffff;
         }
 
         .siteBtn-CL p {
-            line-height: 22px;
+            color: #ffffff;
+            margin: auto;   
         }
 
         a:nth-child(1) .siteBtnInner-CL p, a:nth-child(2) .siteBtnInner-CL p, a:nth-child(3) .siteBtnInner-CL p, a:nth-child(6) .siteBtnInner-CL p, .siteBtnInnerTop-CL p {
@@ -456,6 +475,228 @@
 
         .siteBtnInner-CL:hover>p   {
             color: #ffffff;
+        }
+
+        .siteBtn-CL2 {
+            display: none;
+        }  
+
+
+
+        /*手機版*/
+        @media (max-width:419px) and (min-width: 300px) {
+            .aniContainerOut-CL {
+                max-width: 355px;
+            }
+            .shpContainer-CL {
+                width: 355px;
+            }
+            .shpHotSale-CL {
+                width: 355px;
+            }
+            .shpFooterSpace-CL {
+                width: 355px;
+            }
+            .shpHotSaleTitle-CL {
+                display: none;
+            }
+            .shpCarouselOut-CL {
+                width: 355px;
+                overflow: hidden;
+            }
+            /*暫時消失navbar內選項彩虹條也消失*/
+            .navbarAll {
+                width: 375px;
+            }
+            .upick-navbar-container {
+                display: none;
+            }
+            .colorspace {
+                display: none;
+            }
+            /*searchbar消失*/
+            .navSearch-CL {
+                display: none;
+            }
+            /*頁面頂端預留90給navbar*/
+            .shpTopSpace-CL {
+                height: 90px;
+                width: 100%;
+            }
+            /*輪播牆寬高調整*/
+            .shpCarouselOut-CL .carousel-indicators {
+                width: 375px;
+                height: 150px;
+                overflow: hidden;
+            }
+            .shpCarousel-CL {
+                width: 100%;
+                height: 100%;
+            }
+            /*輪播牆圖片調整*/
+            .carousel-item {
+                width: 375px;
+                height: 150px;
+            }
+            .carousel-item img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            /*輪播牆上下頁按鈕*/
+            .carousel-control-prev {
+                left: 2vw;
+            }
+            .carousel-control-next {
+                left: 78vw;
+            }
+            /*面包屑位置調整-上移*/
+            .breadcrumb {
+                margin-top: -80px;
+            }
+            /*面包屑下標題區*/
+            .shpHotTitle-CL {
+                width: 320px;
+                height: 60px;
+                position: relative;
+                margin-top: 20px;
+                padding-top: 20px;
+                margin-left: 10px;
+            }
+            .shpHotTitle-CL h1 {
+                line-height: 60px;
+                font-size: 18px;
+            }
+            .shpHotTitle-CL::before {
+                position: absolute;
+                content: "";
+                border-right: 5px solid #061127;
+                width: 160px;
+                height: 30px;
+                margin-top: 20px;
+                margin-left: 110px;
+                transform: translateX(-50%) skewX(-20deg);
+            }
+            .shpHotTitle-CL::after {
+                position: absolute;
+                content: "";
+                border-right: 10px solid #061127;
+                border-bottom: 3px solid #061127;
+                width: 210px;
+                height: 30px;
+                margin-top: -48px;
+                margin-left: 110px;
+                transform: translateX(-50%) skewX(-20deg);
+            }
+            /*熱銷商品輪播牆消失*/
+            .shpHotSaleContain-CL {
+                display: none;
+            }
+            /*條件篩選區*/
+            /*WEB版條件篩選不在手機版出現*/
+            .itemFilter-CL {
+                display: none;
+            }
+            /*手機版篩選功能*/
+            .itemFilterPhone-CL {
+                margin-top: -250px;
+                display: block;
+                width: 355px;
+                border: 1px solid #374052;
+                background-color: #374052;
+                padding: 20px;
+                border-radius: 8px;
+            }
+            /*篩選功能標題*/
+            .itemFilterPhone-CL h4 {
+                color: #bebebe;
+                text-align: center;
+                border-bottom: 2px solid #bebebe;
+            }
+            .itemFilterPhone-CL ul {
+                width: 100%;
+                color: white;
+                background-color: #374052;
+                margin: 0;
+                line-height: 50px;
+                border-bottom: 1px solid #838485;
+                font-weight: 700;
+                font-size: 18px;
+            }
+            .itemFilterPhone-CL ul i {
+                color: #bebebe;
+                margin-left: 10px;
+            }
+            .itemFilterPhone-CL li {
+                width: 100%;
+                padding-left: 10%;
+                border-top: 1px solid #838485;
+                display: none;   
+                background-color: #525d72; 
+                font-weight: 100; 
+                font-size: 16px;
+            }
+            /*排序按鈕*/
+            .itemSort-CL {
+                width: 355px;
+                margin-left: 0px;
+                margin-top: 20px;
+            }
+            /*商品展示區*/
+            .shpCpu-CL {
+                width: 355px;
+         
+                border: none;
+            }
+            .shpItem-CL .col-6 {
+                margin: 0;
+            }
+            .shpItem-CL .col-6 img {
+                margin-left: -10px;
+            }
+            /*card下的愛金購物車與金額*/
+            .shpItem-CL .shpHotCartInfo-CL {
+                text-align: left;
+            }
+            /*金額左內距調整*/
+            span.shpItemDollor-CL {
+                padding-left: 28px;
+            }
+            /*手機版頁碼排版*/
+            .itemPage-CL {
+                width: 355px;
+            }
+            /*頁碼文字:跳轉至*/
+            .wWhiteText {
+                margin-top: 50px;
+                margin-left: -200px;
+                display: block;
+            }
+            .wWhitePGJPareaL {
+                margin-top: 50px;
+                margin-left: 2px;
+            }
+            /*手機版gotop按鈕*/
+            .siteBtn-CL2 {
+                display: block;
+                text-align: center;
+                line-height: 50px;
+                width: 50px;
+                height: 50px;
+                border-radius: 25px;
+                z-index: 999;
+                background: #374052;
+                border: 1px solid #ffffff;
+                position: fixed;
+                top: 85vh;
+                left: 80vw;
+                }
+            .siteBtn-CL2 a {
+                color: #ffffff;
+                font-weight: 500;
+                text-decoration: none;
+            }
+
         }
 
             

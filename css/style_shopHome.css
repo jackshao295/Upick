@@ -33,7 +33,7 @@
         .aniUpick-CL {
             width: 100vw;
             height: 100vh;
-            background: #061127;
+            background: #383E44;
         }
 
         .aniUpick-CL h1 {
@@ -54,7 +54,7 @@
 
         .aniUpick-CL h1::before {
             content: "UPICK";
-            color: #01FFC3;
+            color: #7FE0DC;
             margin-left: -20px;
             margin-top: -5px;
             position:absolute;
@@ -83,7 +83,7 @@
         }
 
         h4.aniUpickWord-CL, .aniUpickWord-CL .fa-angle-double-right{
-            color: #01FFC3;
+            color: #7FE0DC;
             text-decoration: underline;
             margin-top: 10px;
             cursor: pointer;
@@ -93,22 +93,22 @@
          /*UPICK文字閃爍動畫*/
          @keyframes textbling-pink-U {
             0%{
-                color: #061127;
+                color: #383E44;
             }
             80%{
-                color: #061127;
+                color: #383E44;
             }
             90%{
                 color: #FD2081;
             }
             95%{
-                color: #061127;
+                color: #383E44;
             }
             99%{
                 color: #FD2081;
             }
             100%{
-                color: #061127;
+                color: #383E44;
             }
 
         }
@@ -197,7 +197,7 @@
         .aniWepick-CL h1::before {
             position: absolute;
             content: "WEPICK";
-            color: #01FFC3;
+            color: #7FE0DC;
             margin-left: -20px;
             margin-top: -5px;
 
@@ -212,7 +212,7 @@
         .aniWepick-CL h1::after {
             position: absolute;
             content: "WEPICK";
-            color: #061127;
+            color: #383E44;
             margin-left: -498px;
             margin-top: -6px;
         }       
@@ -274,7 +274,7 @@
         }
 
         h4.aniWepickWord-CL, .aniWepickWord-CL .fa-angle-double-left{
-            color:#FF2181;
+            color:#FF8888;
             text-decoration: underline;
             margin-top: 10px;
             cursor: pointer;
@@ -405,7 +405,7 @@
         .shpHotTitle-CL::before {
             position: absolute;
             content: "";
-            border-right: 5px solid #061127;
+            border-right: 5px solid #383E44;
             width: 210px;
             height: 40px;
             margin-top: 10px;
@@ -416,8 +416,8 @@
         .shpHotTitle-CL::after {
             position: absolute;
             content: "";
-            border-right: 10px solid #061127;
-            border-bottom: 3px solid #061127;
+            border-right: 10px solid #383E44;
+            border-bottom: 3px solid #383E44;
             width: 260px;
             height: 40px;
             margin-top: -58px;
@@ -459,8 +459,8 @@
         .shpHotSaleTitle-CL::before {
             position: absolute;
             content: "";
-            border-left: 5px solid #061127;
-            border-right: 5px solid #061127;
+            border-left: 5px solid #383E44;
+            border-right: 5px solid #383E44;
             width: 280px;
             height: 40px;
             margin-top: 10px;
@@ -471,8 +471,8 @@
         .shpHotSaleTitle-CL::after {
             position: absolute;
             content: "";
-            border-left: 10px solid #061127;
-            border-right: 10px solid #061127;
+            border-left: 10px solid #383E44;
+            border-right: 10px solid #383E44;
             width: 320px;
             height: 40px;
             margin-top: -58px;
@@ -519,18 +519,18 @@
 
         /*修改商品輪播牆上下頁之Icon顏色*/
         .shpCaroBtnIcon-CL {
-            color: #061127;
+            color: #383E44;
             font-size: 40px;
         }
 
         /*修改商品輪播牆-item cart裡的愛心與購物車icon顏色*/
         .shpHeart-CL {
-            color:#FF2181;
+            color:#FF8888;
             font-size: 22px;
         }
 
         .shpShopCar-CL {
-            color: #374052;
+            color: #383E44;
             font-size: 22px;
             margin-left: 8px;
         }
@@ -598,7 +598,7 @@
         }
 
         .shpPageMartBtn-CL:nth-child(1), .shpPageMartBtn-CL:nth-child(2) {
-            border-right: 2px solid #D2D8E2;
+            border-right: 2px solid #E4E8EE;
         }
 
         /*UPICK,WEPICK熱銷商品輪播牆的*/
@@ -661,7 +661,7 @@
         /*零件區*/
         .shpItem-CL {
             width: 100%;
-            height: 400px;
+            height: 450px;
             border: 1px solid #616161;
             margin-top: 30px;
             border-radius: 8px;
@@ -678,7 +678,7 @@
         .shpItemSkew-CL {
             width: 100%;
             height: 60px;
-            background: #D2D8E2;
+            background: #E4E8EE;
             border-radius: 8px 8px 0 0;
             position: relative;
         }
@@ -694,8 +694,8 @@
         .shpItemSkew-CL::before {
             position: absolute;
             content: "";
-            border-left: 5px solid #061127;
-            border-right: 5px solid #061127;
+            border-left: 5px solid #383E44;
+            border-right: 5px solid #383E44;
             width: 280px;
             height: 40px;
             margin-top: 10px;
@@ -706,8 +706,8 @@
         .shpItemSkew-CL::after {
             position: absolute;
             content: "";
-            border-left: 10px solid #061127;
-            border-right: 10px solid #061127;
+            border-left: 10px solid #383E44;
+            border-right: 10px solid #383E44;
             width: 320px;
             height: 40px;
             margin-top: -58px;
@@ -769,6 +769,18 @@
             width: 1300px;
         }
 
+        /*看更多*/
+        .shpSeeMore-CL {
+            display: block;
+            width: 100%;
+            text-align: right;
+            margin-top: 30px;
+            font-size: 18px;
+            font-weight: 700;
+            padding-right: 50px;
+            color: #9AA3AC;
+        }
+
 
         /*以下全為fixed元件*/
         /*自製scrollBar*/
@@ -797,9 +809,9 @@
             left: calc(100vw - 300px);
             top: 400px;
             box-sizing: border-box;
-            border-top: 1px solid #374052;
-            border-left: 1px solid #374052;
-            border-right: 1px solid #374052;
+            border-top: 1px solid #383E44;
+            border-left: 1px solid #383E44;
+            border-right: 1px solid #383E44;
             background-color: #ffffff;
             transform: translateY(150vh);
             transition: 1s;
@@ -810,12 +822,13 @@
             height: 50px;
             text-align: center;
             box-sizing: border-box;
-            border-bottom: 1px solid #374052;
+            border-bottom: 1px solid #383E44;
             cursor: pointer;
         }
 
         .siteBtnInnerTop-CL {
-            background-color: #374052;  
+            background-color: #383E44;
+            border: 1px solid #ffffff;
         }
 
         .siteBtnInnerTop-CL p {
@@ -836,11 +849,214 @@
 
         /*siteBtn hover效果*/
         .siteBtnInner-CL:hover {
-            background-color: #374052;
+            background-color: #383E44;
         }
 
         .siteBtnInner-CL:hover>p   {
             color: #ffffff;
+        }
+
+        /*siteBtn2在WEB版時不出現*/
+        .siteBtn-CL2 {
+            display: none;
+        }
+
+
+
+
+        /*手機版*/
+        @media (max-width:419px) and (min-width: 300px) {
+            .aniContainerOut-CL {
+                max-width: 355px;
+            }
+            .shpContainer-CL {
+                width: 355px;
+            }
+            .shpHotSale-CL {
+                width: 355px;
+            }
+            .shpFooterSpace-CL {
+                width: 355px;
+            }
+            .shpHotSaleTitle-CL {
+                display: none;
+            }
+            .shpCarouselOut-CL {
+                width: 355px;
+                overflow: hidden;
+            }
+            /*暫時消失navbar內選項彩虹條也消失*/
+            .navbarAll {
+                width: 375px;
+            }
+            .upick-navbar-container {
+                display: none;
+            }
+            .colorspace {
+                display: none;
+            }
+            /*searchbar消失*/
+            .navSearch-CL {
+                display: none;
+            }
+            /*頁面頂端預留90給navbar*/
+            .aniTopSpace {
+                display: none;
+            }
+            .shpTopSpace-CL {
+                height: 90px;
+                width: 100%;
+            }
+            /*輪播牆寬高調整*/
+            .shpCarouselOut-CL .carousel-indicators {
+                width: 375px;
+                height: 150px;
+                overflow: hidden;
+            }
+            .shpCarousel-CL {
+                width: 100%;
+                height: 100%;
+            }
+            /*輪播牆圖片調整*/
+            .carousel-item {
+                width: 375px;
+                height: 150px;
+            }
+            .carousel-item img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            /*輪播牆上下頁按鈕*/
+            .carousel-control-prev {
+                left: 2vw;
+            }
+            .carousel-control-next {
+                left: 78vw;
+            }
+            /*面包屑位置調整-上移*/
+            .breadcrumb {
+                margin-top: -80px;
+            }
+            /*面包屑下標題區*/
+            .shpHotTitle-CL {
+                width: 320px;
+                height: 60px;
+                position: relative;
+                margin-top: 20px;
+                padding-top: 20px;
+                margin-left: 10px;
+            }
+            .shpHotTitle-CL h1 {
+                line-height: 60px;
+                font-size: 18px;
+            }
+            .shpHotTitle-CL::before {
+                position: absolute;
+                content: "";
+                border-right: 5px solid #061127;
+                width: 160px;
+                height: 30px;
+                margin-top: 20px;
+                margin-left: 110px;
+                transform: translateX(-50%) skewX(-20deg);
+            }
+            .shpHotTitle-CL::after {
+                position: absolute;
+                content: "";
+                border-right: 10px solid #061127;
+                border-bottom: 3px solid #061127;
+                width: 210px;
+                height: 30px;
+                margin-top: -48px;
+                margin-left: 110px;
+                transform: translateX(-50%) skewX(-20deg);
+            }
+            /*其他輪播牆都消失*/
+            .shpHotSale-CL {
+                display: none;
+            }
+            /*DM廣告區消失*/
+            .shpHotItemImg-CL {
+                display: none;
+            }
+   
+            /*商品展示區*/
+            .shpItem-CL {
+                width: 355px;
+                height: 300px;
+                border: none;
+                margin-top: 60px;
+            }
+            .shpCpu-CL, .shpBoard-CL, .shpRam-CL, .shpHdd-CL, .shpSdd-CL, .shpVga-CL, .shpShell-CL, .shpPower-CL, .shpFan-CL, .shpAcce-CL {
+                transform: translateY(-0px);
+                height: 630px;
+            }
+            .shpItem-CL .row:nth-child(2) {
+                display: none;
+            }
+            .shpItem-CL h3 {
+                letter-spacing: 0;
+            }
+            /*設定零件區cart-big的標題框斜線border-使用偽類*/
+            .shpItemSkew-CL::before {
+                display: none;
+            }
+
+            .shpItemSkew-CL::after {
+                display: none;
+            }
+
+            .shpItem-CL .col {
+                display: block;
+                margin-bottom: 150px;
+            }
+            .shpItem-CL .col img {
+                vertical-align:0;
+            }
+            /*看更多*/
+            .shpSeeMore-CL {
+                display: block;
+                width: 355px;
+                text-align: right;
+                margin-top: 425px;
+                font-size: 18px;
+                font-weight: 700;
+                padding-right: 30px;
+                color: #9AA3AC;
+            }
+
+        
+            /*card下的愛金購物車與金額*/
+            .shpItem-CL .shpHotCartInfo-CL {
+                text-align: left;
+            }
+            /*金額左內距調整*/
+            span.shpItemDollor-CL {
+                padding-left: 28px;
+            }
+ 
+            /*手機版gotop按鈕*/
+            .siteBtn-CL2 {
+                display: block;
+                text-align: center;
+                line-height: 50px;
+                width: 50px;
+                height: 50px;
+                border-radius: 25px;
+                z-index: 999;
+                background: #374052;
+                border: 1px solid #ffffff;
+                position: fixed;
+                top: 85vh;
+                left: 80vw;
+                }
+            .siteBtn-CL2 a {
+                color: #ffffff;
+                font-weight: 500;
+                text-decoration: none;
+            }
+
         }
 
             

@@ -1,5 +1,5 @@
 .shpFooterOut-CL {
-    background-color: #061127;
+    background-color: #383E44;
     height: 292px;
     width: 100vw;
     padding: 0;
@@ -75,5 +75,48 @@
     height: 8px;
     padding-top: 0;
     width: 100%;
-    background: linear-gradient(to right, #01FFC3 1%, #FF2181 50%, #01FFC3 99%);
+    background: linear-gradient(to right, #7FE0DC 1%, #FF8888 50%, #7FE0DC 99%);
+}
+
+
+
+
+/*手機版*/
+@media (max-width:419px) and (min-width: 300px) {
+    /*footer高度*/
+    .shpFooter-CL {
+        height: 1000px;
+    }
+    .shpFooterOut-CL {
+        height: 1000px;
+    }
+    /*footer寬度*/
+    .shpFooter-CL {
+        width: 355px;
+    }
+    .shpFooterTel-CL {
+        display: block;
+        width: 355px;
+    }
+    /*門市資訊分界線*/
+    .shpFooterStorInfo-CL {
+        border-right: 0;
+        border-bottom: 1px solid #ffffff;
+        margin-left: -10px;
+    }
+    /*門市資訊區*/
+    .shpFooterStor-CL .row {
+        margin-top: 20px;
+    }
+    /*社群媒體圖標*/
+    .shpFooterTelinfoSocial-CL {
+        text-align: center;
+    }
+    /*版權宣告位置*/
+    .shpCopyright-CL {
+        width: 355px;
+        padding-top: 0;
+        margin-top: 600px;
+    }
+    
 }

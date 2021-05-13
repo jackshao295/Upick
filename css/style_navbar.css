@@ -34,7 +34,7 @@
     }
 
     .navbar-upick {
-        background-color: #061127;
+        background-color: #383E44;
         font-size: 14px;
         height: 72px;
     }
@@ -43,7 +43,7 @@
         background-color: transparent;
         color: #fff;
         cursor: pointer;
-        border: 2px solid #01FFC3;
+        border: 2px solid #7FE0DC;
         outline: none;
         margin: auto 0;
         width: 110px;
@@ -53,8 +53,8 @@
     }
 
     .wBtnNav:hover {
-        background-color: #01FFC3;
-        color: #061127;
+        background-color: #7FE0DC;
+        color: #383E44;
     }
 
     .upick-navbar-container a {
@@ -62,16 +62,15 @@
     }
 
     .upick-navbar-container a:hover {
-        color: #01FFC3;
+        color: #7FE0DC;
         transition: .5s;
     }
 
     /* 彩虹條 */
     .colorspace {
         height: 8px;
-        padding-top: 64px;
         width: 100vw;
-        background: linear-gradient(to right, #01FFC3 1%, #CB1162 50%, #01FFC3 99%);        
+        background: linear-gradient(to right, #7FE0DC 1%, #FF8888 50%, #7FE0DC 99%);        
     }
 
 
@@ -129,7 +128,7 @@
     .navSearchColor-CL {
         width: 0%;
         height: 30px;
-        background-color: #01FFC3;
+        background-color: #7FE0DC;
         position: absolute;
         left: 50%;
         transform: translateX(-50%);

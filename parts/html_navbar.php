@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg navbar-upick">
         <div class="upick-navbar-container row">
             <!-- logo -->
-            <a class="navbar-brand" href="#"> <img src="./icon/logo-w.svg" alt="UPick" height="30" width="30"></a>
+            <a class="navbar-brand" href="#"> <img src="/Upick/icon/logo-w.svg" alt="UPick" height="30" width="30"></a>
             <!-- 三明治按鈕 -->
             <button class="navbar-toggler navbar-toggler-upick" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
@@ -11,16 +11,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item up-nav-left">
-                        <a class="nav-link navHome-CL" href="#">首頁</a>
+                        <a class="nav-link navHome-CL" href="/Upick/shopHome.php">首頁</a>
                     </li>
                     <li class="nav-item up-nav-left">
                         <a class="nav-link " href="#">商場</a>
                     </li>
                     <li class="nav-item up-nav-left">
-                        <a class="nav-link" href="#">WePick</a>
+                        <a class="nav-link" href="/Upick/web/wepick/wepick-0.php">WePick</a>
                     </li>
                     <li class="nav-item up-nav-left">
-                        <a class="nav-link" href="#">UPick</a>
+                        <a class="nav-link" href="/Upick/web/upick/upick-0.php">UPick</a>
                     </li>
                 </ul>
             </div>
@@ -55,7 +55,6 @@
     <!-- 彩虹條 -->
     <div class="colorspace"></div>
 
-
     <!--白色搜尋bar區-->
     <div class="navSearch-CL">
         <!--搜尋輸入框-->
@@ -74,59 +73,56 @@
                 <div class="navSearchColor-CL"></div>
                 <span>主題機</span>
             </div>
-            <div class="navSearchText-CL">
-                <div class="navSearchColor-CL"></div>
-                <span>CPU</span>
-            </div>
-            <div class="navSearchText-CL">
-                <div class="navSearchColor-CL"></div>
-                <span>主機板</span>
-            </div>
-            <div class="navSearchText-CL">
-                <div class="navSearchColor-CL"></div>
-                <span>記憶體</span>
-            </div>
-            <div class="navSearchText-CL">
-                <div class="navSearchColor-CL"></div>
-                <span>傳統硬碟</span>
-            </div>
-            <div class="navSearchText-CL">
-                <div class="navSearchColor-CL"></div>
-                <span>固態硬碟</span>
-            </div>
-            <div class="navSearchText-CL">
-                <div class="navSearchColor-CL"></div>
-                <span>顯示卡</span>
-            </div>
-            <div class="navSearchText-CL">
-                <div class="navSearchColor-CL"></div>
-                <span>電腦機殼</span>
-            </div>
-            <div class="navSearchText-CL">
-                <div class="navSearchColor-CL"></div>
-                <span>電源供應器</span>
-            </div>
-            <div class="navSearchText-CL">
-                <div class="navSearchColor-CL"></div>
-                <span>散熱模組</span>
-            </div>
-            <div class="navSearchText-CL">
-                <div class="navSearchColor-CL"></div>
-                <span>周邊零件</span>
-            </div>
+            <a href="/Upick/web/product/item_cpu.php">
+                <div class="navSearchText-CL">
+                    <div class="navSearchColor-CL"></div>
+                    <span>CPU</span>
+            </a>
+        </div>
+        <div class="navSearchText-CL">
+            <div class="navSearchColor-CL"></div>
+            <span>主機板</span>
+        </div>
+        <div class="navSearchText-CL">
+            <div class="navSearchColor-CL"></div>
+            <span>記憶體</span>
+        </div>
+        <div class="navSearchText-CL">
+            <div class="navSearchColor-CL"></div>
+            <span>傳統硬碟</span>
+        </div>
+        <div class="navSearchText-CL">
+            <div class="navSearchColor-CL"></div>
+            <span>固態硬碟</span>
+        </div>
+        <div class="navSearchText-CL">
+            <div class="navSearchColor-CL"></div>
+            <span>顯示卡</span>
+        </div>
+        <div class="navSearchText-CL">
+            <div class="navSearchColor-CL"></div>
+            <span>電腦機殼</span>
+        </div>
+        <div class="navSearchText-CL">
+            <div class="navSearchColor-CL"></div>
+            <span>電源供應器</span>
+        </div>
+        <div class="navSearchText-CL">
+            <div class="navSearchColor-CL"></div>
+            <span>散熱模組</span>
+        </div>
+        <div class="navSearchText-CL">
+            <div class="navSearchColor-CL"></div>
+            <span>周邊零件</span>
         </div>
     </div>
+</div>
 
 </div>
 
+<!--SCRIPT-->
+<?php require("C:\\xampp\htdocs\Upick\parts\scripts.php"); ?>
 <script>
-    //searhBar分類區按鈕特效
-    $('.navSearchText-CL').click(function() {
-        $(this).css('marginTop', '0px');
-        $('.navSearchColor-CL').css('width', '120%').css('opacity', '1');
-        $(this).siblings().children('.navSearchColor-CL').css('width', '0%').css('opacity', '0.2');
-    })
-
     $('.navSearchText-CL').mouseover(function() {
         $(this).css('marginTop', '-5px').css('transition', '0.2s').siblings().css('marginTop', '0px');
 

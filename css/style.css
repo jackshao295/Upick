@@ -23,37 +23,37 @@
         h1 {
             font-size: 28px;
             font-weight: bold;
-            color: #061127;
+            color: #383E44;
         }
 
         h2 {
             font-size: 24px;
             font-weight: bold;
-            color: #061127;
+            color: #383E44;
         }
 
         h3 {
             font-size: 22px;
             font-weight: bold;
-            color: #061127;
+            color: #383E44;
         }
 
         h4 {
             font-size: 18px;
             font-weight: bold;
-            color: #061127;
+            color: #383E44;
         }
 
         h5 {
             font-size: 16px;
             font-weight: bold;
-            color: #061127;
+            color: #383E44;
         }
 
         p {
             font-size: 14px;
             font-weight: normal;
-            color: #061127;
+            color: #383E44;
             line-height: 28px;
         }
 
@@ -65,18 +65,18 @@
         /*BUTTON-web版-WEPICK*/
         /*btnShare是BUTTON-web版共用設定*/
         .btnShare {
-            height: 60px;
-            width: 400px;
+            height: 50px;
+            width: 300px;
             border-radius: calc(40px * 0.5);
-            border-radius: 30px;
+            border-radius: 25px;
             text-align: center;
             line-height: 40px;
-            font-size: 24px;
-            font-weight: bold;
+            font-size: 22px;
+            font-weight: lighter;
         }
 
         .wBtnNormalDark {
-            background-color: #061127;
+            background-color: #383E44;
             color: white;
             cursor: pointer;
             border: none;
@@ -84,30 +84,31 @@
         }
 
         .wBtnNormalDark:hover {
-            background-color: #374052;
+            background-color: #9AA3AC;
         }
 
         .wBtnNormalWhite {
             background-color: #FFFFFF;
-            color: #061127;
+            color: #383E44;
             cursor: pointer;
-            border: 1px solid #061127;
+            border: 1px solid #383E44;
             outline: none;
         }
 
         .wBtnNormalWhite:hover {
-            background-color: #D2D8E2;
+            background-color: #383E44;
+            color: #ffffff;
         }
 
         .wBtnLock {
-            background-color: #E6E6E6;
-            color: #CCCCCC;
-            border: 1px solid #CCCCCC;
+            background-color: #E4E8EE;
+            color: #9AA3AC;
+            border: 1px solid #9AA3AC;
             outline: none;
         }
 
         .wBtnAddCar {
-            background-color: #061127;
+            background-color: #383E44;
             color: white;
             cursor: pointer;
             border: none;
@@ -115,64 +116,64 @@
         }
 
         .wBtnAddCar:hover {
-            background-color: #374052;
+            background-color: #9AA3AC;
         }
 
         .wBtnAddTrace {
             background-color: #FFFFFF;
-            color: #061127;
+            color: #383E44;
             cursor: pointer;
-            border: 1px solid #061127;
+            border: 1px solid #383E44;
             outline: none;
         }
 
         .wBtnAddTrace:hover {
-            background-color: #D2D8E2;
+            background-color: #E4E8EE;
         }
 
         .shpHeart {
-            color:#FF2181;
+            color:#FF8888;
         }
 
         /*BUTTON-web-UPICK*/
         .wBtnNGr {
-            background-color: #01FFC3;
-            color: #061127;
+            background-color: #7FE0DC;
+            color: #383E44;
             cursor: pointer;
             border: none;
             outline: none;
         }
 
         .wBtnNGr:hover {
-            background-color: #00C2BA;
+            background-color: #4AC8C2;
         }
 
         .wBtnNGRLoin {
-            background-color: #01FFC3;
-            color: #061127;
+            background-color: #7FE0DC;
+            color: #383E44;
             cursor: pointer;
             border: none;
             outline: none;
         }
 
         .wBtnNGRLoin:hover {
-            background-color: #00C2BA;
+            background-color: #4AC8C2;
         }
 
         .wBtnNGRadCar {
-            background-color: #01FFC3;
-            color: #061127;
+            background-color: #7FE0DC;
+            color: #383E44;
             cursor: pointer;
             border: none;
             outline: none;
         }
 
         .wBtnNGRadCar:hover {
-            background-color: #00C2BA;
+            background-color: #4AC8C2;
         }
 
         .wBtnNPk {
-            background-color: #FF2181;
+            background-color: #FF8888;
             color: #FFFFFF;
             cursor: pointer;
             border: none;
@@ -180,11 +181,11 @@
         }
 
         .wBtnNPk:hover {
-            background-color: #CB1162;
+            background-color: #FD6A6A;
         }
 
         .wBtnNPkAdCar {
-            background-color: #FF2181;
+            background-color: #FF8888;
             color: #FFFFFF;
             cursor: pointer;
             border: none;
@@ -192,7 +193,7 @@
         }
 
         .wBtnNPkAdCar:hover {
-            background-color: #CB1162;
+            background-color: #FD6A6A;
         }
 
         /*BUTTON-mobile版-WEPICK*/
@@ -208,7 +209,7 @@
         }
 
         .mBtnDark {
-            background-color: #061127;
+            background-color: #383E44;
             color: white;
             cursor: pointer;
             border: none;
@@ -217,22 +218,22 @@
 
         .mBtnWhite {
             background-color: #FFFFFF;
-            color: #061127;
+            color: #383E44;
             cursor: pointer;
-            border: 1px solid #061127;
+            border: 1px solid #383E44;
             outline: none;
         }
 
         .mBtnGr {
-            background-color: #01FFC3;
-            color: #061127;
+            background-color: #7FE0DC;
+            color: #383E44;
             cursor: pointer;
             border: none;
             outline: none;
         }
 
         .mBtnPk {
-            background-color: #FF2181;
+            background-color: #FF8888;
             color: #FFFFFF;
             cursor: pointer;
             border: none;
@@ -261,7 +262,7 @@
             height: 100%;
             font-size: 20px;
             text-decoration: none;
-            color: #061127;
+            color: #383E44;
         }
 
         .wWhitePgJump {
@@ -277,7 +278,7 @@
             height: 30px;
             width: 80px;
             border-radius: 4px;
-            border: 1px solid #061127;
+            border: 1px solid #383E44;
             margin-left: 8px;
             display: flex;
         }
@@ -298,7 +299,7 @@
             margin-left: 8px;
             display: none;
             width: 80px;
-            border: 1px solid #061127;
+            border: 1px solid #383E44;
         }
 
         .wWhiteJPPG {
@@ -307,7 +308,7 @@
         }
 
         .wWhiteJPPG:hover {
-            background-color: #D2D8E2;
+            background-color: #E4E8EE;
         }
 
         .wWhitePgLink2 {
@@ -316,7 +317,7 @@
             height: 100%;
             font-size: 20px;
             text-decoration: none;
-            color: #061127;
+            color: #383E44;
             text-align: center;
             margin-left: -8px;
         }
@@ -333,8 +334,8 @@
             width: 450px;
             height: 60px;
             border-radius: 8px;
-            background-color: #061127;
-            border: 2px solid #01FFC3;
+            background-color: #383E44;
+            border: 2px solid #7FE0DC;
             color: #FFFFFF;
         }
 
@@ -342,8 +343,8 @@
             width: 450px;
             height: 60px;
             border-radius: 30px;
-            background-color: #061127;
-            border: 2px solid #01FFC3;
+            background-color: #383E44;
+            border: 2px solid #7FE0DC;
             color: #FFFFFF;
         }
 
@@ -352,8 +353,8 @@
             width: 450px;
             height: 150px;
             border-radius: 8px;
-            background-color: #061127;
-            border: 2px solid #01FFC3;
+            background-color: #383E44;
+            border: 2px solid #7FE0DC;
             color: #FFFFFF;
             padding-top: 14px;
         }
@@ -390,14 +391,14 @@
 
         /*WEB版成功彈跳視窗*/
         .wSucceDark {
-            background-color: #374052;
-            border: 2px solid #01FFC3;
+            background-color: #383E44;
+            border: 2px solid #7FE0DC;
         }
 
         .wSucceDarkTick {
             width: 80px;
             height: 80px;
-            color: #01FFC3;
+            color: #7FE0DC;
             text-align: center;
             line-height: 80px;
             font-size: 60px;
@@ -413,14 +414,14 @@
 
         /*WEB版錯誤彈跳視窗*/
         .wErrorDark {
-            background-color: #374052;
+            background-color: #383E44;
             border: 2px solid #161314;
         }
 
         .wErrorDarkCross {
             width: 80px;
             height: 80px;
-            color: #FF2181;
+            color: #FF8888;
             text-align: center;
             line-height: 80px;
             font-size: 60px;
@@ -436,14 +437,14 @@
 
         /*WEB版警告彈跳視窗*/
         .wWarnDark {
-            background-color: #374052;
-            border: 2px solid #FF2181;
+            background-color: #383E44;
+            border: 2px solid #FF8888;
         }
 
         .wWarnDarkSym {
             width: 80px;
             height: 80px;
-            color: #FF2181;
+            color: #FF8888;
             text-align: center;
             line-height: 80px;
             font-size: 60px;
@@ -459,12 +460,12 @@
 
         /*WEB版分享彈跳視窗*/
         .wShareDark {
-            background-color: #374052;
-            border: 2px solid #01FFC3;
+            background-color: #383E44;
+            border: 2px solid #7FE0DC;
         }
 
         .wShareDark h4 {
-            color: #01FFC3;
+            color: #7FE0DC;
             text-align: center;
             margin-top: 30px;
         }
@@ -496,7 +497,7 @@
             width: 15%;
             border-radius: 0 10px 10px 0;
             border: none;
-            background-color: #D2D8E2;
+            background-color: #E4E8EE;
             outline: none;
             cursor: pointer;
             font-size: 42px;
@@ -513,7 +514,7 @@
         .wSearchInputBox {
             width: 80%;
             height: 100%;
-            border: 1px solid #061127;
+            border: 1px solid #383E44;
             border-radius: 25px 0 0 25px;
             background-color: #FFFFFF;
         }
@@ -524,7 +525,7 @@
             border-radius: 0 25px 25px 0;
             border: none;
             outline: none;
-            background-color: #061127;
+            background-color: #383E44;
             color: #FFFFFF;
             text-align: center;
             font-size: 18px;
